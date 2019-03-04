@@ -1,0 +1,19 @@
+<div class="container">
+  <div class="col-lg-12 col-md-12 col-sm-12">
+    <!-- slider left side -->
+    <div class="col-lg-2 col-md-2 col-sm-2">
+
+    </div>
+    <!-- right side content -->
+    <div class="col-lg-10 col-md-10 col-sm-10">
+      <div class="col-lg-10 col-md-10 col-sm-10 offset-sm-2">
+        <p class="h5">Regular Map</p>
+        <div class="show-map">
+          <agm-map [latitude]="lat" [longitude]="lng">
+            <agm-marker [latitude]="lat" [longitude]="lng"></agm-marker>
+          </agm-map>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
