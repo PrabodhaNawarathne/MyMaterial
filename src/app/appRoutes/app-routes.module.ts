@@ -9,7 +9,7 @@ const appRoutes: Routes = [
     {
         path: '', component: LoginComponent, pathMatch: 'full'
     },
-    {        
+    {
         path: 'dashboard', component: DashboardComponent, pathMatch: 'full'
     }
 ];

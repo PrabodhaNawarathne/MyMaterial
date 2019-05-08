@@ -89,4 +89,5 @@ import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
     declarations: []
 })
 
+// tslint:disable-next-line:class-name
 export class appMaterialModule {}
